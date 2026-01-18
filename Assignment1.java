@@ -2,7 +2,8 @@ import java.util.Scanner;
 
 public class Assignment1 {
 
-	public static void main(String[] args) {
+
+    public static void main(String[] args) {
 		
 		
 		int input = 0;
@@ -18,7 +19,11 @@ public class Assignment1 {
 
 		scanner.close();
 	}
-	
+	/**
+     * Returns the nth value of the fibonnaci sequence
+     * @param nth
+     * @return
+     */
 	public static int fib(int nth) {
 		int n = nth;
 		if(n <= 1){
